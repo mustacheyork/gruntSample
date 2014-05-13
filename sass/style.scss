@@ -1,0 +1,12 @@
+@import "compass";
+
+body {
+    width: 90%;
+    p {
+        font-size: 15px;
+        color: red;
+        @include border-radius(3px);
+        @include opacity(0.5);
+        @include box-shadow(0 0 1px #ccc);
+    }
+}
